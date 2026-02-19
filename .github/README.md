@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-ec2-instance-connect`](https://www.npmjs.com/package/@aws-sdk/client-ec2-instance-connect/v/3.438.0).
+[`@aws-sdk/client-ec2-instance-connect`](https://www.npmjs.com/package/@aws-sdk/client-ec2-instance-connect/v/3.441.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ec2-instance-connect@3.438.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ec2-instance-connect@3.441.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-+won5v8kqw+m/2uTuXmWDXd4R76jEeNb0gLdECvmBl4tY8GDHokKCoa14Q/JaEfX
+sha384-652hHgtz/LeXhYWqPdskuqDgzfFXpsukIuImHq8vMqJ6aeOoNr9SYMCHYxEAY5mw
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-ec2-instance-connect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ec2-instance-connect@3.438.0/index.min.mjs"
+            "@aws-sdk/client-ec2-instance-connect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ec2-instance-connect@3.441.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ec2-instance-connect@3.438.0/index.min.mjs": "sha384-+won5v8kqw+m/2uTuXmWDXd4R76jEeNb0gLdECvmBl4tY8GDHokKCoa14Q/JaEfX"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ec2-instance-connect@3.441.0/index.min.mjs": "sha384-652hHgtz/LeXhYWqPdskuqDgzfFXpsukIuImHq8vMqJ6aeOoNr9SYMCHYxEAY5mw"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-ec2-instance-connect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ec2-instance-connect@3.438.0/index.min.mjs"
+                        "@aws-sdk/client-ec2-instance-connect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ec2-instance-connect@3.441.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ec2-instance-connect@3.438.0/index.min.mjs": "sha384-+won5v8kqw+m/2uTuXmWDXd4R76jEeNb0gLdECvmBl4tY8GDHokKCoa14Q/JaEfX"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ec2-instance-connect@3.441.0/index.min.mjs": "sha384-652hHgtz/LeXhYWqPdskuqDgzfFXpsukIuImHq8vMqJ6aeOoNr9SYMCHYxEAY5mw"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.438.0`)
+* Always pin to a specific version (`@3.441.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-ec2-instance-connect/blob/refs/tags/3.438.0/LICENSE
+https://github.com/cloud-sdk-builds/client-ec2-instance-connect/blob/refs/tags/3.441.0/LICENSE
 ```
 
 ---
